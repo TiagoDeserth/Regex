@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Digite o CPF </h1>
+    <input type="text" name="cpf" id="uCpf" placeholder="XXX.XXX.XXX-XX" >
+
+    <button type="button" onClick="validarNome()">
+        Validar
+    </button>
+    <button type="button" onClick="classificacpf()">
+      Classificar
+  </button>
+  
+  <div class="mensagemFinal">
+    
+    <div id="aviso-erro" style="display: none;">
+      <strong>CPF inválido!</strong>
+    </div>
+    <div id="aviso-Sucesso" style="display: none;">
+      <strong>CPF válido!</strong>
+    </div>
+  </div>
+  <script src="validarcpf.js"></script>
+</body>
+</html>
